@@ -2,7 +2,9 @@ import React from 'react'
 
 function UserManagement() {
   return (
-    <div>UserManagement</div>
+    <div className='w-full h-[500px] mt-8 bg-white rounded-xl'>
+      <p>UserManagement</p>
+    </div>
   )
 }
 
