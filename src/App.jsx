@@ -5,7 +5,8 @@ import Register from './pages/authentication/Register'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import MainPage from './pages/home/MainPage';
-import ProtectedRoute from './ProtuctRouting/ProtuctRouter';
+import ProtectedRoute from './protuctrouting/ProtuctRouter.jsx'
+
 
 function App() {
   return (
@@ -17,9 +18,9 @@ function App() {
         <Route
           path="/"
           element={
-            <ProtectedRoute>
-              <MainPage />
-            </ProtectedRoute>
+            <ProtectedRoute> <MainPage /></ProtectedRoute>
+             
+           
           }
         />
       </Routes>
