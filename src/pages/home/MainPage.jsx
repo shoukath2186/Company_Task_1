@@ -11,14 +11,14 @@ function MainPage() {
       className="absolute bg-gradient-to-r from-[#FF8553] via-[#E25845] to-[#E25845] "
       style={{
         width: '100%',
-        height: '383px',
+        height: '380px',
         top: '-10px',
         left: '0',
         opacity: 1
       }}
     >
       <svg 
-        className="absolute bottom-0 left-0 w-full" 
+        className="absolute bottom-[-1px] left-0 w-full" 
         viewBox="0 0 1000 320" 
         preserveAspectRatio="none"
       >

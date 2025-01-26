@@ -10,7 +10,7 @@ import UserManagement from '../../components/sideBarComponents/UserManagement';
 
 
 function Alienation() {
-    const [activeItem, setActiveItem] = useState('User Management');
+    const [activeItem, setActiveItem] = useState('Dashboard');
     const sidBarItems = ['Dashboard', 'User Management', 'Rating and Review', 'Settings', 'History', 'All Bookings', 'Push Notification', 'Transaction List', 'Google Analytics', 'Multi-Currency', 'Category ', 'Live Chat History', 'Package Plan', 'Referral History', 'Google Map']
 
     const componentsMap = {
@@ -41,8 +41,8 @@ const HandilRender=()=>{
 
                 <SideBar sidBarItems={sidBarItems} handileClick={handileClick} activeItem={activeItem} />
 
-                <div className='flex-1 h-full w-full my-10 flex items-center justify-center ml-6'>
-                    <div className='w-full h-[1000px]  '>
+                <div className='flex-1 h-full w-full my-10 flex items-center justify-center ml-5'>
+                    <div className='w-full'>
                          <TopBar/>
                          
                          <HandilRender/>

@@ -5,7 +5,7 @@ import { FaBell } from "react-icons/fa6";
 function TopBar() {
     return (
        
-<div className="w-full border-b-2 border-gray-300 flex items-center py-3 px-2 relative">
+<div className="w-full border-b-2 border-gray-300 flex items-center py-3  relative">
             <div className="flex items-center flex-grow mr-4">
                 <input
                     type="search"
