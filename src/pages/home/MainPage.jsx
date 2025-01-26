@@ -8,10 +8,10 @@ function MainPage() {
   return (
     <div className='w-screen h-full bg-[#EAEAEB] fixed overflow-auto'>
     <div 
-      className="absolute bg-gradient-to-r from-[#FF8553] via-[#E25845] to-[#E25845]"
+      className="absolute bg-gradient-to-r from-[#FF8553] via-[#E25845] to-[#E25845] "
       style={{
         width: '100%',
-        height: '379px',
+        height: '383px',
         top: '-10px',
         left: '0',
         opacity: 1

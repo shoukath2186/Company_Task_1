@@ -40,7 +40,8 @@ const HandilRender=()=>{
             <div className='h-full w-[80%]  flex '>
 
                 <SideBar sidBarItems={sidBarItems} handileClick={handileClick} activeItem={activeItem} />
-                <div className='flex-1 h-full w-full my-10 flex items-center justify-center ml-4'>
+
+                <div className='flex-1 h-full w-full my-10 flex items-center justify-center ml-6'>
                     <div className='w-full h-[1000px]  '>
                          <TopBar/>
                          
