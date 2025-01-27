@@ -1,13 +1,16 @@
 
 import axiosInstance from "./Axios_interSepter";
 
-const User='/api/v1/user'
+const User='/api/v1/admin'
 
 export const logInApi=async (formData)=>{
-  console.log('form datas',formData);
+  //console.log('form datas',formData);
   return axiosInstance.post(`${User}/login`,formData);
 }
 export const registerApi=async (formData)=>{
    // console.log('form datas',formData);
    return await axiosInstance.post(`${User}/registration`,formData);
+}
+export const dashbordUser=async (page,limit)=>{
+  return await axiosInstance.get(`${User}/getAllUsers?page=${page}&limit=${limit}`)
 }

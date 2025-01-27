@@ -10,6 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.4.1",
+    "@mui/system": "^6.4.1",
+    "@mui/x-charts": "^7.24.1",
     "@reduxjs/toolkit": "^2.4.0",
     "axios": "^1.7.9",
     "lucide-react": "^0.465.0",

@@ -5,7 +5,7 @@ import { useSelector } from 'react-redux';
 const ProtectedRoute = ({ children }) => {
   const isAuthenticated = useSelector((state) => state.User); 
 
-  console.log(isAuthenticated);
+  //console.log(isAuthenticated);
   
 
   if (!isAuthenticated.data) {
